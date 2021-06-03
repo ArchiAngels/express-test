@@ -15,7 +15,8 @@ app.get('/home', (req, res) => {
 })
 
 app.get('/api/links',(req,res) =>{
-    res.json(links);
+  res.setHeader("Access-Control-Allow-Origin","*");
+  res.json(links);
 })
 
 
