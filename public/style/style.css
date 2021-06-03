@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    background:#000;
+    color:#fff;
+}
+span{
+    color:rgb(82, 79, 79);
+}
+a{
+    color:white;
+    text-decoration: none;
+}
